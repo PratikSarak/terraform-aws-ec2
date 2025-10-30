@@ -1,4 +1,4 @@
-Terraform AWS EC2 Project
+# Terraform AWS EC2 Project
 
 This project demonstrates how to create and manage an AWS EC2 instance using Terraform — an Infrastructure as Code (IaC) tool.
 
