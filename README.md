@@ -5,7 +5,8 @@ This project demonstrates how to create an EC2 instance in AWS using Terraform.
 **Prerequisites**
 Before you begin, make sure you have:
 Terraform installed → Install Guide
-AWS CLI configured with valid credentials:
+_AWS CLI configured with valid credentials:_
+
 aws configure
 
 **Git installed and configured:**
