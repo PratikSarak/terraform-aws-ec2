@@ -2,14 +2,33 @@
 
 This project demonstrates how to create an EC2 instance in AWS using Terraform.
 
-## Steps
+**Prerequisites**
+Before you begin, make sure you have:
+Terraform installed → Install Guide
+AWS CLI configured with valid credentials:
+aws configure
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/terraform-aws-ec2.git
-   cd terraform-aws-ec2
+**Git installed and configured:**
 
-2. terraform init
-3. terraform plan
-4. terraform apply
-5. terraform destroy
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+**Steps to Use**
+1️⃣ Clone the Repository
+git clone https://github.com/PratikSarak/terraform-aws-ec2.git
+cd terraform-aws-ec2
+
+2️⃣ Initialize Terraform
+terraform init
+
+Initializes the working directory and downloads provider plugins.
+
+3️⃣ Review the Plan
+terraform plan
+
+Shows what Terraform will do before making any changes.
+
+4️⃣ Apply the Configuration
+terraform apply -auto-approve
+
+Creates an EC2 instance in AWS based on your configuration.
